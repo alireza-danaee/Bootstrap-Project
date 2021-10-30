@@ -1,0 +1,72 @@
+.text-section1 {
+    font-size: 70px !important;
+}
+
+#earth-globe {
+    /* position: absolute; */
+    color: #BBA6E0;
+    width: 400px !important;
+    height: 400px !important;
+    background-image: url("glowry2.png") !important;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #C1AEE4 inset, 0 0 20px 2px #C1AEE4;
+    animation: spin 10s linear alternate infinite;
+}
+
+@keyframes spin {
+    100% {
+        background-position: 100%;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    #earth-globe {
+        width: 300px !important;
+        height: 300px !important;
+        margin-top: 25px;
+        margin-right: 25px !important;
+    }
+}
+.text-size-me {
+    font-size: 20px !important;
+    color: #472B79 !important;
+}
+
+.design-but {
+    background-color: #392265 !important;
+    border: 1px solid #392265 !important;
+}
+
+
+.card-scale {
+    transition: 0.5s;
+}
+.card-scale:hover {
+    transform:scale(1.1) !important ;
+}
+
+.register-but:hover {
+    background-color: #392265 !important;
+}
+
+.register-but {
+    border: 1px solid #392265 !important ;
+    color: #392265;
+}
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width:993px) {
+    .have-any {
+        margin-top: 20px !important;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .title-header-font {
+        font-size: 40px !important;
+    }
+}
